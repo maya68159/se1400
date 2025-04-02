@@ -11,7 +11,7 @@
 
 #topbar {
     background-color: #F1E9D2D0;
-    grid-column: 1 / 9;
+    grid-column: 1 / -1;
     grid-row: 1 / 2;
     height: 12vh;
     margin-top: 0px;
@@ -60,16 +60,16 @@
 
 #hero {
     background-image: url("imges/pexels-elly-fairytale-3823076.jpg");
-    grid-column: 1 / 9;
+    grid-column: 1 / -1;
     grid-row: 1 / 3;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 120vh;
+    height: 150vh;
     max-height: 3744px;
     background-size: contain;
     padding: 0;
-    margin: 0;
+    margin: 0px auto;
     border: 0;
     order: -1;
 }
